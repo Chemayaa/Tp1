@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.menu{
+    text-align: end;
+    color: black;
+    margin-right: 240px;
+    
+}
+.juju{
+    text-align: end;
+    margin-right: 240px;
+    float: right;
+    margin-top: 30px;
+    
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+  
+}
+.container{
+    background-color: black;
+    width: 100vw;
+    height: 185vh;
+    display: flex;
+    justify-content: center;
+}
+
+.banniere{
+    width: 116vh;
+    height: auto;
+}
+
+.block{
+    background-color: rgb(211, 210, 210);
+    height: 185vh;
+    width: 66vw;
+}
+
+.header{
+    background-image: url(img/background.jpg) ;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 18vh;
+}
+
+#logo{
+    justify-content: flex-start;
+    width: 220px ;
+    height: 60px ;
+    margin-top: 10px;
+    margin-left: 260px;
+}
+
+span{
+    color: orange;
+}
+
+#lorem{
+    margin-left:  260px;
+    margin-top: 10px;
+    font-family: url(fonts/LiberationSans-Regular-webfont.ttf);
+    font-size: large;
+}
+
+.shop{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px ;
+    padding: 50px;
+   /* margin-top: 20px;*/
+}
+
+.product{
+   /* background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0,1);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.imageprod{
+    /*width: 80%;
+    height: auto;
+    border-radius: 5px;*/
+    position: relative;
+}
+.imageprod img{
+    width: 100%;
+    height: auto;
+}
+
+.promo{
+   /* background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;*/
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: orange;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.infoprod{
+   /* padding: 20px; */
+}
+.infoprod h3{
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.prixprod{
+    margin: 10px 0;
+}
+.ancienprix{
+    text-decoration: line-through;
+    color: #999;
+    margin-right: 10px;
+}
+
+.nouveauprix{
+    color: #e67e22;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.callto{
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.footer{
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+    height: 40vh;
+    
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.icon{
+    text-align: center;
+    margin:20px;
+}
+
+.icon p{
+    margin-top: 10px;
+    font-size: 0.8em;
+    color: white;
+}
+
+.icon img{
+    height: 50px;
+    width: 50px;
+}
+
+.separateur{
+
+    border: white solid 1.5px none;
+    width: 66%;
+    margin: 20px auto;
+}
+
+
+.lien{
+    margin-left: 272px;
+    background-color: #fff;
+    padding: 20px ;
+    border-radius: 10px;
+    width: 25vw;
+    position: relative;
+    
+    
+}
+
+.lien a{
+    color: gray;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social a{
+    margin: 20px;
+    
+}
+.droits{
+    color: white;
+}
+@media(max-width: 768px){
+    .shop{
+        grid-template-columns: 1fr;
+    }
+}
